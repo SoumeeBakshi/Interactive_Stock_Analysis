@@ -24,7 +24,7 @@ def interactive_plot(df):
 def normalize(df_2):
     df=df_2.copy()
     for i in df.columns[1:]:   # skip Date column
-        df[i] = df[i] / df[i][0]
+        df[i] = df[i] / df[i].iloc[0] 
     return df 
 
 # function to calculate daily returns
