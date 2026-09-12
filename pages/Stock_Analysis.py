@@ -4,7 +4,7 @@ import yfinance as yf
 import plotly.graph_objects as go
 import datetime
 import ta 
-from PAGES.utils.plotly_figures import table
+from utils.plotly_figures import table
 
 # setting page config
 st.set_page_config(
