@@ -1,9 +1,7 @@
-streamlit
-pandas
-numpy
-yfinance
-plotly
-pandas-datareader
-ta
-pandas-ta
-python-dateutil 
+streamlit==1.38.0
+pandas==2.2.2
+numpy==1.26.4
+yfinance==0.2.43
+plotly==5.24.1
+pandas-datareader==0.10.0
+python-dateutil==2.9.0
