@@ -44,6 +44,7 @@ for stock in stocks_list:
 
 
 # Reset and clean stocks_df
+stocks_df.index.name = 'Date'
 stocks_df.reset_index(inplace=True)
 stocks_df['Date'] = pd.to_datetime(stocks_df['Date'])
 
